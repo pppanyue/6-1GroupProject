@@ -1,0 +1,28 @@
+#baidumap{
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	height: 640px;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 8px;
+	border-color: aqua;
+}
+body{
+	text-align: center;
+	margin: auto;
+}
+#result{
+	max-width: 980px;
+	margin: 0 auto;
+}
+#school_experience_btn{
+	font-size: 15px;
+	width: 150px;
+	height: 50px;
+}
+#show_distance_btn{
+	font-size: 15px;
+	width: 200px;
+	height: 50px;
+}

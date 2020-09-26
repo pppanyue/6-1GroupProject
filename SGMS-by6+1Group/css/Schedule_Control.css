@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+}
+table, td, th{
+	text-align: center;
+	margin: auto;
+	border: 1px solid aqua;
+	background-color: azure;
+}
+th{
+	font-size: 40px;
+	padding: 10px 30px;
+}
+td{
+	font-size: 25px;
+	padding: 10px 50px;
+}
+#calculate{
+	margin: 100px auto;
+	font-size: 20px;
+}
+#txt_oprd1, #txt_oprd2{
+	font-size: 15px;
+	width: 100px;
+	height: 50px;
+	color: blue;
+}
+#operator{
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+}
+#txt_res{
+	font-size: 15px;
+	width: 150px;
+	height: 50px;
+	color: green;
+}
+#schedule_chart{
+	margin: 100px auto;
+	width: 1000px;
+	height: 1000px;
+	align-items: center;
+}
