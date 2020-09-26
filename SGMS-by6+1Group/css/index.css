@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	margin: auto;
+	
+	background-image: url("/img/test_background.png");
+	background-color: rgba(0,0,0,0);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+
+#indexNavbar{
+	opacity:0.9;
+}
+
+
+#getstart{
+	margin:50px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#subwords{
+	margin:100px;
+}
