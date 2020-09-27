@@ -24,34 +24,37 @@
     </form>
 
 
-	<!-- 导航条 -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="#">
-			<img alt="profile_pic" src="img/group_logo.png" width="40px" height="40px"/>
-			欢迎来到湖北大学教务系统！
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">
+				<img alt="profile_pic" src="img/group_logo.png" width="40px" height="40px"/>
+				欢迎来到湖北大学教务系统！
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">待添加网页</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">待添加网页</a>
-			</li>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.aspx">首页 <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="test.aspx">测试网页</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">待添加网页</a>
+				</li>
 
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">登录</button>
-			</form>
-		</div>
-	</nav>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<a class="btn btn-outline-success my-2 my-sm-0" role="button" href="login.aspx">登录</a>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+
 
 </body>
 </html>

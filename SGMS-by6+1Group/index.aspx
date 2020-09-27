@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -24,146 +25,243 @@
 	</form>
 
 
+	<!--导航条-->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="indexNavbar">
+			<a class="navbar-brand" href="index.aspx">
+				<img alt="profile_pic" src="img/group_logo.png" width="40px" height="40px"/>
+				欢迎来到湖北大学教务系统！
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	<!-- 导航条 -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="indexNavbar">
-		<a class="navbar-brand" href="#">
-			<img alt="profile_pic" src="img/group_logo.png" width="40px" height="40px"/>
-			欢迎来到湖北大学教务系统！
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.aspx">首页 <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="test.aspx">测试网页</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">待添加网页</a>
+				</li>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">待添加网页</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">待添加网页</a>
-			</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<a class="btn btn-outline-success my-2 my-sm-0" role="button" href="login.aspx">登录</a>
+				</form>
+			</div>
+		</nav>
+	</header>
 
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">登录</button>
-			</form>
-		</div>
-	</nav>
+	<!--页面首部-->
+	<div id="indexHead">
+		<div id="headBackground"></div>
+		<div id="headDivLine"></div>
 
-
-
-	<div class="container">
-
-		<div class="row">
-			<div class="col-lg-3"></div>
-			<div class="col-lg-5"></div>
-
-			<div class="col-lg-3"></div>
-		</div><!-- /.row -->
-
-
-		<header id="maintitle">
-			TEST TITLE
-		</header>		
-
-
-		<section id="content">
-
-
-
-
-			<div class="row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-5">
-					<div class="input-group">
-						<input type="text" class="form-control" aria-label="..."/>
-						<div class="input-group-btn">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
-							<ul class="dropdown-menu dropdown-menu-right">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-							</ul>
-						</div><!-- /btn-group -->
-					</div><!-- /input-group -->
-				</div>
-				<div class="col-lg-3"></div>
-			</div><!-- /.row -->
-
-
-
-			<article>
-				<hr/>
-				This webside is a detail list about collections in LemonP's home.
-				<hr/>
-				<br/><br/>
-				<div class="panel panel-default">
-			    <div class="panel-heading">
-			        <h3 class="panel-title" id="Para1">
-						Art Books
-				        </h3>
-				    </div>
-					    <div class="panel-body">
-				        <p id="subwords">
-				        	Kushidayo's artworks<br/>
-				        	TH doujins<br/>
-				        	Shiratama's artworks<br/>
-				        	Bilibili 10th anniversary artbook<br/>
-						</p>
-				    </div>
-				</div>
-
-				<br/><br/>
-				<div class="panel panel-default">
-				    <div class="panel-heading">
-				        <h3 class="panel-title" id="Para2">
-				            Decoration
-				        </h3>
-				    </div>
-				    <div class="panel-body">
-				        <p id="subwords">
-				        	Figures<br/>
-				        	Acrylic plates<br/>
-				        </p>
-				    </div>
-				</div>
-				
-				<br/><br/>
-				<div class="panel panel-default">
-				    <div class="panel-heading">
-				        <h3 class="panel-title" id="Para3">
-				            Accessory
-				        </h3>
-				    </div>
-				    <div class="panel-body">
-				        <p id="subwords">
-				        	Badges<br/>
-				        	CDs<br/>
-				        	Acrylic key chain<br/>
-				        </p>
-				    </div>
-				</div>
-
-				<h4>
-					BGM
-				</h4>
-				<p>
-					<audio controls="controls" autoplay="autoplay"  loop="loop">
-						<source src="music/Cincleaf - Maple Leaf Swing.mp3" type="audio/mpeg"/>
-					</audio>
-				</p>
-			</article>
-		</section>
-		<footer>
-			Copyright 2020 by LemonP. All Rights Reserved
-		</footer>
 	</div>
+
+
+		<div id="headLogo">
+			<div id="logoPosition" class="container">
+				<div class="row row-cols-12">
+					<div id="hubuLogo" class="col-3"  style="vertical-align: middle;">
+						<img src="img/hubu_logo.png" />
+					</div>
+					<div class="col-6"></div>
+					<div id="groupLogo" class="col-3" style="vertical-align: middle;">
+						<img src="img/group_logo.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<main role="main">
+
+		
+				<div id="headSearch" class="container">
+					<div class="input-group">
+						<input type="text" class="form-control" aria-label="Text input with segmented dropdown button"/>
+						<div class="input-group-append">
+						<button type="button" class="btn btn-outline-secondary">搜索</button>
+						<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="sr-only">下拉框</span>
+						</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">书籍</a>
+								<div role="separator" class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">课程</a>
+								<a class="dropdown-item" href="#">教师</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+	  <div class="album py-5 bg-light">
+		<div class="container">
+
+		  <div class="row">
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+
+
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+	</main>
+	
+	<footer class="text-muted">
+		
+		  <div class="container">
+			<p class="float-right">
+			  <a href="#">Back to top</a>
+			</p>
+			<p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+			<p>New to Bootstrap? <a href="https://v4.bootcss.com/">Visit the homepage</a> or read our <a href="/docs/getting-started/introduction/">getting started guide</a>.</p>
+		  </div>
+
+	</footer>
 
 </body>
 </html>
