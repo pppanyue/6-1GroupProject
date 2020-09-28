@@ -64,26 +64,26 @@
 	</div>
 
 
-		<div id="headLogo">
-			<div id="logoPosition" class="container">
-				<div class="row row-cols-12">
-					<div id="hubuLogo" class="col-3"  style="vertical-align: middle;">
-						<img src="img/hubu_logo.png" />
-					</div>
-					<div class="col-6"></div>
-					<div id="groupLogo" class="col-3" style="vertical-align: middle;">
-						<img src="img/group_logo.png" />
-					</div>
+	<div id="headLogo">
+		<div id="logoPosition" class="container">
+			<div class="row row-cols-12">
+				<div id="hubuLogo" class="col-4"  style="vertical-align: middle;">
+					<img src="img/hubu_logo.png" />
+				</div>
+				<div class="col-4"></div>
+				<div id="groupLogo" class="col-4" style="vertical-align: middle;">
+					<img src="img/group_logo.png" />
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-	<main role="main">
+
 
 		
 				<div id="headSearch" class="container">
-					<div class="input-group">
+					<div id="searchBox"class="input-group">
 						<input type="text" class="form-control" aria-label="Text input with segmented dropdown button"/>
 						<div class="input-group-append">
 						<button type="button" class="btn btn-outline-secondary">搜索</button>
@@ -249,7 +249,6 @@
 	  </div>
 
 
-	</main>
 	
 	<footer class="text-muted">
 		
