@@ -34,8 +34,6 @@ body{
 	background: #400097;
 
 }
-
-
 /*Logo*/
 
 #headLogo {
@@ -46,24 +44,20 @@ body{
 	/*border: 3px ridge #400097;*/
 }
 
+#hubuLogo{
+	margin-top:10px;
+}
+
+#groupLogo{
+	margin-top:5px;
+}
 
 #logoPosition {
 	width: 100%;
 	margin:0 auto;
 }
 
-#hubuLogo {
-
-
-}
-
-#groupLogo {
-
-
-}
-
-
-
-#headSearch {
-	height: 120px;
+#searchBox{
+	margin-top:20px;
+	margin-bottom:20px;
 }
