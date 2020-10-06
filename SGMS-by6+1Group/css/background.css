@@ -1,0 +1,20 @@
+﻿body {
+	text-align: center;
+	margin: auto;
+	background-image: url("/img/test_background2.jpg");
+	background-color: rgba(0,0,0,0);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/* 
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	*/
+	/*其他可参考样式：
+	font-family: Arial Black, Gadget, sans-serif;
+	overflow: hidden;
+	*/
+}

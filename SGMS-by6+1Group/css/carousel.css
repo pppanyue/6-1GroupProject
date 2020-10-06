@@ -1,7 +1,12 @@
-﻿.indexCarouselDiv {
+﻿#indexCarouselMargin{
+	margin:50px auto;
+
+}
+
+.indexCarouselDiv {
 	width: 500px;
 	height: 400px;
-	border: 1px solid black;
+	border: 2px solid black;
 	margin: auto;
 }
 
@@ -11,12 +16,24 @@
 }
 
 .indexCarouselDetail {
-	background-color:lightgray;
+	background-color:aliceblue;
 	opacity:0.8;
 	width: 400px;
 	margin: auto;
-	border: dashed;
+	/*border: dashed;*/
 	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-	color: black;
 
 }
+
+/*carousel detail div 1*/
+.CDdiv1{
+	color:brown;
+}
+
+
+/*
+#indexCarouselOutside {
+	width: 1100px;
+	margin:auto;
+}
+*/
